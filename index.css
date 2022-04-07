@@ -1,15 +1,23 @@
 body {
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
+  margin: 0 auto;
   width: 90vw;
+  height: 100vh;
   max-width: 1200px;
 }
 
+.main {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .title {
-  font-size: medium;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 30px;
   background-color: #303e48;
   color: #fff;
   margin: 0;
@@ -19,27 +27,38 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0;
+  flex: 1;
 }
 
 .text .text__titular {
+  padding: 20px;
   background-color: #aca4b5;
   flex: 2;
 }
 
 .text h1 {
-  font-size: medium;
+  font-size: large;
 }
 
 .text .text__index {
+  padding: 20px;
   background-color: #9b93a4;
   flex: 1;
 }
 
-.footer {
+footer {
+  padding: 30px;
   display: flex;
   background-color: #303e48;
   margin: 0;
-}
-.footer p {
   justify-content: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+aside section ul {
+  list-style: none;
+  padding-left: 0;
 }
